@@ -265,33 +265,6 @@ By making internal code repositories searchable through natural language—and e
 
 A new programmer asking about EPOCH derivation gets the same battle-tested approach that senior staff developed and validated years ago.
 
----
-
-## Getting Started
-
-```bash
-# Clone the repository
-git clone https://github.com/YOUR-USERNAME/clinical-sas-rag.git
-cd clinical-sas-rag
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Set up environment variables
-cp .env.example .env
-# Edit .env with your Azure OpenAI and Pinecone credentials
-
-# Run the parser on your SAS code repository
-python sas_code_parser.py --input /path/to/sas/repo
-
-# Create vector index
-python create_index.py
-
-# Launch the chat interface
-python sas_chat_app.py
-```
-
----
 
 ## Contact
 
